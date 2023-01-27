@@ -27,13 +27,13 @@ Write HTML and CSS code for designing book cover page and execute them.
             margin-right: auto;
             padding: 20px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-image: url(/static/images/back.jpg);
+            background-image: url("/static/images/back.jpeg");
             background-size: cover;
         }
             
 
         .toptext{
-            color:white;
+            color:black;
 
         }
 
@@ -42,21 +42,21 @@ Write HTML and CSS code for designing book cover page and execute them.
             width:140px;
         }
         .author{
-            color: white;
+            color: rgb(8, 8, 8);
             display: inline;
             position: relative;
-            color:lightblue;
-            top:190px;
+            color:rgb(8, 8, 8);
+            top:180px;
             
-            font-family:Georgia;
+            font-family:Cosmic;
             font-size: medium;
         }
         .booktitle{
-            font-family: 'Courier New', Courier, monospace;
+            font-family: 'sans-serif';
             font-size: larger;
             text-align: center;
             position: relative;
-            top: 30px;
+            top: 20px;
         
         }
         .id {
@@ -68,11 +68,11 @@ Write HTML and CSS code for designing book cover page and execute them.
         .publisher{
             font-size: medium;
             position: relative;
-            top:155px;
+            top:145px;
             left:330px;
         }
         .edition{
-            color:red;
+            color:rgb(255, 208, 0);
             font-size: medium;
             font-family: Verdana;
             position:relative;
@@ -80,7 +80,7 @@ Write HTML and CSS code for designing book cover page and execute them.
 
         }
         .subtitle{
-            font-family:Tahoma;
+            font-family:Segoe UI;
             font-size: large;
             position: relative;
             top:40px;
@@ -105,24 +105,24 @@ Write HTML and CSS code for designing book cover page and execute them.
                 <hr style="color: red;">
             </div>
             <div class="booktitle">
-                <h1>Responsive Web Design With HTML5 and CSS</h1></div>
+                <h1>RESPONSIVE WEB DESIGN USING HTML5 AND CSS</h1></div>
             <div class="subtitle">
                 Develop future-proof responsive websites using the latest HTML5 and CSS Techniques
             </div>
             <div class="photo">
-                <img src="/static/images/hema.jpg" width="130" height="145" alt="">
+                <img src="/static/images/photo.jpg" width="130" height="145" alt="">
             </div>
             <div class="id">
-                <hr style="color: orange;">
+                <hr style="color: yellow;">
             </div>
             <div class="author">
-               <p><b>P.Hemasonica</b></p>
+               <p><b>R.UDAYAKUMAR</b></p>
             </div>
             <div class="publisher">
-                PACKT
+                RELX
             </div>
             <div class="edition">
-                <b>First Edition</b>
+                <b>Seventh Edition</b>
             </div>
             
         </div>
@@ -130,10 +130,10 @@ Write HTML and CSS code for designing book cover page and execute them.
 </html>
 ```
 ## Output:
-![output](out.png)
+![](output.png)
 
 ## HTML Validator:
-![HTML Validator](valid.png)
+![](Valid.png)
 
 ## Result:
 The program for designing book cover page using HTML and CSS is executed successfully.
